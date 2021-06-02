@@ -2,9 +2,9 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.SwingUtilities;
-public class TableExample extends JFrame
+public class Table extends JFrame
 {
-    public TableExample()
+    public Table()
     {
         //headers for the table
         String[] columns = new String[] {
@@ -34,7 +34,7 @@ public class TableExample extends JFrame
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new TableExample();
+                new Table();
             }
         });
     }

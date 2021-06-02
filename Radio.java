@@ -3,9 +3,9 @@ import java.awt.event.*;
 import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JRadioButton;
-class RadioButton1 extends JFrame implements ActionListener{    
+class Radio extends JFrame implements ActionListener{    
 JRadioButton rb1,rb2,rb3;        
-RadioButton1(){      
+Radio(){      
 rb1=new JRadioButton("IT");    
 rb1.setBounds(100,50,100,30);      
 rb2=new JRadioButton("CS");    
@@ -24,6 +24,6 @@ public void actionPerformed(ActionEvent e){
 System.exit(0);
 }
 public static void main(String args[]){    
-new RadioButton1();    
+new Radio();    
 }
 }   

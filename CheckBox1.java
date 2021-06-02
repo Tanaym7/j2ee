@@ -1,8 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
-public class CheckboxGroup1  
+public class CheckBox1 
 {  
-     CheckboxGroup1(){  
+     CheckBox1(){  
        Frame f= new Frame("Checkbox");  
         Checkbox c1 = new Checkbox("Good");  
         c1.setBounds(100,100, 50,50);  

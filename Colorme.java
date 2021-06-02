@@ -1,11 +1,11 @@
 import javax.swing.*;  
 import java.awt.*;  
 import java.awt.event.*;  
-public class ColorPro extends JFrame implements ActionListener{  
+public class Colorme extends JFrame implements ActionListener{  
 JFrame f;  
 JButton b;  
 JTextArea ta;  
-ColorPro(){  
+Colorme(){  
     f=new JFrame("Color Chooser ");  
     b=new JButton("Color");  
     b.setBounds(200,250,100,30);  
@@ -22,6 +22,6 @@ public void actionPerformed(ActionEvent e){
     ta.setBackground(c);  
 }  
 public static void main(String[] args) {  
-    new ColorPro();  
+    new Colorme();  
 }  
 }     

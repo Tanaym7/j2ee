@@ -1,9 +1,9 @@
 import java.awt.*;
 import javax.swing.*;
-public class Gridlyt
+public class GridLayout
 {
 JFrame f;
-Gridlyt ()
+GridLayout ()
 {
   f= new JFrame();
   JButton b1=new JButton("0");

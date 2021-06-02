@@ -1,8 +1,8 @@
 import java.awt.*;  
 import java.awt.event.*;  
-public class Checkclear1  
+public class Checkclear  
 {  
-     Checkclear1(){  
+     Checkclear(){  
         Frame f= new Frame("Multi box Checked Status");  
         final Label label = new Label();          
         label.setAlignment(Label.CENTER);  

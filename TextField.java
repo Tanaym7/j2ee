@@ -1,6 +1,6 @@
 import java.awt.*; 
 import java.awt.event.*; 
-class TextFieldGroup{  
+class TextField{  
 public static void main(String args[]){  
     Frame f= new Frame("TextField");  
     TextField t1,t2;  

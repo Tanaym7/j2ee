@@ -1,5 +1,5 @@
-//It is a program of grading system for fail, D grade, C grade, B grade, A grade and A+. 
-public class ifex
+
+public class Grade
 { 
  public static void main (String args[])
  { 
